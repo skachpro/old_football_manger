@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Arial";
+}
+
+html {
+    font-size: 1px;
+}
+
+body {
+    background-color: #8dc63f;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 75%;
+    min-width: 961px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.header {
+    padding-bottom: 25px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.header-logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-logo-text p {
+    padding-bottom: 10px;
+    font-size: 22rem;
+    color: #39930d;
+}
+
+.header-logo-text b {
+    padding-bottom: 20px;
+    font-size: 44rem;
+    color: #39930d;
+}
+
+.header-logo-text i {
+    font-size: 14rem;
+    color: #5a5a5a;
+}
+
+.header-logo-img {
+    display: flex;
+    align-items: center;
+}
+
+
+.header-contacts {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.header-contacts a {
+    font-size: 22rem;
+    color: #39930d;
+}
+
+.header-contacts i {
+    padding-top: 15px;
+    font-size: 14rem;
+    color: #5a5a5a;
+}
+
+.img {
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content-info {
+    width: 65%;
+}
+
+
+.main-content-info h1{
+    padding-bottom: 20px;
+    font-size: 24rem;
+    color: #39930d;
+    font-weight: bold;
+}
+
+
+.main-content-info p{
+    padding-bottom: 20px;
+    font-size: 14rem;
+    line-height: 21rem;
+    color: #343434;
+}
+
+.main-content-menu p{
+    background-color: #39930d;
+    padding: 15px 100px 15px 20px;
+    font-size: 18rem;
+    color: #ffffff;
+}
+
+.main-content-menu ul{
+    padding: 20px 0px 0px 20px;
+    list-style: none;
+}
+
+.main-content-menu ul li{
+    font-size: 14rem;
+    line-height: 30rem;
+    text-transform: uppercase;
+}
+
+.main-content-menu ul li>a{
+    font-size: 14rem;
+    line-height: 30rem;
+    color: #39930d;
+}
+
+
+.footer{
+    background-color: #39930d;
+}
+.footer p{
+    font-size: 14rem;
+    color: #ffffff;
+}
